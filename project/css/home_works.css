@@ -1,0 +1,53 @@
+.email_block {
+    background: black;
+    padding: 100px 0;
+}
+.email_container {
+  justify-content: center;
+  display: flex;
+}
+.email_text {
+  justify-content: center;
+  color: rgb(225, 230, 230) ;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  font-weight: 300;
+}
+#emailInput {
+  border-radius: 5px;
+  width: 450px; 
+  color: #fbf3f3;
+}
+#emailCheck {
+  border-radius: 5px;
+  width: 150px;
+  background-color: #2e70f5;
+  color: #000000;
+}
+.emailResult {
+  font-weight: 200;
+  padding-top: 20px;
+  font-size: 19px;
+}
+
+
+.move_block {
+    background: black;
+    padding: 50px 0;
+}
+
+.animation {
+    height: 100px;
+    width: 100%;
+    border: 2px solid orange;
+    position: relative;
+}
+
+.child_block {
+    position: absolute;
+    width: 99px;
+    height: 96px;
+    background: red;
+    left: 10px;
+}
